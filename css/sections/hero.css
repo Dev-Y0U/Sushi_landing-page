@@ -1,0 +1,28 @@
+.hero{
+  display:flex;
+  min-height: calc(100vh - 74px);
+  overflow: hidden;
+}
+/*left side of the hero section*/
+.hero-image{
+  flex: 1;
+  z-index: 5;
+  position: relative;
+}
+.hero-image img{
+  width:120% ;
+  height: 100%;
+  object-fit: contain;
+}
+
+.hero-image__overlay{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  z-index: -1;
+  background-color: var(--primary-color);
+}
+
+/* right side of the hero section */
+
+
